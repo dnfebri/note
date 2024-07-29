@@ -1,9 +1,9 @@
 # Install WSL On Windows
 
 1. Open Terminal or Powershell
-  ```
-  $ wsl --install -d ubuntu
-  ```
+   ```
+   $ wsl --install -d ubuntu
+   ```
 2. Install Curl
    ```
    $ sudo apt-get install curl
