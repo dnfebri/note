@@ -28,3 +28,15 @@
 6. In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal laptop, you might call this key "Personal laptop".
 7. In the "Key" field, paste your public key.
 8. Click Add SSH key.
+9. Test connection on terminal
+    ```
+    ssh -T git@github.com
+    ```
+
+## Problem
+1. git@github.com: Permission denied (publickey).
+   - repeat this command command
+   - ```eval "$(ssh-agent -s)"```
+   - ```ssh-add namefile```
+   - Enter passphrase
+   - Test connection ```ssk -T git@github.com```
