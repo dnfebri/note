@@ -6,8 +6,9 @@
    cd ~/.ssh
    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    ```
-2. At the prompt, type a secure passphrase
-3. Start the ssh-agent in the background.
+2. Enter a unique name or leave it blank
+3. At the prompt, type a secure passphrase
+4. Start the ssh-agent in the background.
    ```
    eval $(ssh-agent -s)
    ```
